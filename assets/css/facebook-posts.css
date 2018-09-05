@@ -1,0 +1,34 @@
+.fp__posts {
+     list-style-type: none;
+}
+
+.fp__posts li {
+     margin-bottom: 20px;
+}
+
+.fp__posts time {
+     font-size: .9em;
+     font-style: italic;
+     margin-bottom: 5px;
+     display: block;
+}
+
+.fp__posts p {
+     margin-bottom: 10px;
+}
+
+.fp__posts a {
+     font-size: .9em;
+     display: inline-block;
+}
+
+.fp__pagination {
+     list-style-type: none;
+     display: flex;
+     justify-content: space-around;
+}
+
+.fp__pagination .btn:disabled {
+     opacity: .5;
+     cursor: not-allowed;
+}
